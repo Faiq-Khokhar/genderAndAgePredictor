@@ -206,8 +206,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        ageModelInterpreter.close()
-        genderModelInterpreter.close()
+
+        if (::ageModelInterpreter.isInitialized) {
+            ageModelInterpreter.close()
+        }
+        if (::genderModelInterpreter.isInitialized) {
+            genderModelInterpreter.close()
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

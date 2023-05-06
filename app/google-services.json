@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "381475155106",
+    "project_id": "age-gender-detection-d95dd",
+    "storage_bucket": "age-gender-detection-d95dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381475155106:android:6d38d9f4ef27eea161fbfb",
+        "android_client_info": {
+          "package_name": "com.ml.projects.age_genderdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381475155106-mb0jjn97n4o70j0tmmp262dohsttahon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM9wA7TT3hZOrCURxxGJC2KNf_2XPeMA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381475155106-mb0jjn97n4o70j0tmmp262dohsttahon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
